@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Color Contrast with AI</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-    <h1>live</h1>
-    <form action="/contrast" method='POST'>
-        <input type="number" placeholder="R" name='colorOneR'>
-        <input type="number" placeholder="G" name='colorOneG'>
-        <input type="number" placeholder="B" name='colorOneB'>
-        <input type="submit">
+  <div>
+    <h1>Color Contrast with AI</h1>
+    <form action="/contrast" method='POST' id=colorCode>
+        <label for='colorCode'>RGB color code:</label>
+        <input type="number" placeholder="R" name='colorOneR' min='0' max='255'>
+        <input type="number" placeholder="G" name='colorOneG' min='0' max='255'>
+        <input type="number" placeholder="B" name='colorOneB' min='0' max='255'>
+        <input type="submit" id=button>
     </form>
+
+    <a href='https://www.rapidtables.com/web/color/RGB_Color.html' target="_blank" rel="noopener noreferrer">get an RGB code</a>
+  </div>
 </body>
 </html>

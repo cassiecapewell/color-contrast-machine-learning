@@ -1,0 +1,26 @@
+div{
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+  }
+
+input{
+  width: 50px;
+}
+
+#contrast{
+  font-weight: 900;
+}
+
+#button{
+  width: 100px;
+}
+
+a{
+  display: block;
+  margin-top: 200px;
+  text-decoration: none;
+  color: blue;
+}
